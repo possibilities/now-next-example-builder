@@ -1,6 +1,6 @@
 {
   "name": "now-next-example-builder",
-  "version": "0.0.157",
+  "version": "0.1.0",
   "scripts": {
     "lint": "standard"
   },
