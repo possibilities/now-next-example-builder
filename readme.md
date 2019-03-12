@@ -14,7 +14,6 @@ First must have the expected filesystem.
 │   ├── next.config.js
 │   ├── package.json
 │   ├── pages
-│   │   ├── about.js
 │   │   └── index.js
 │   └── yarn.lock
 ├── index.js
@@ -29,7 +28,6 @@ Next declare the `now-next-example-builder` where you'd normally use `@now/next`
 
   "version": 2,
   "name": "experiment",
-  "public": true,
   "builds": [
     { "src": "example/next.config.js", "use": "now-next-example-builder" }
   ]
